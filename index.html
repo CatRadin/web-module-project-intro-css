@@ -4,12 +4,17 @@
 <head>
 <!-- Link your CSS stylesheet -->
 <link rel="stylesheet" href="index.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
     
 </head>
 <body> 
   <div class="container">
   
-    <nav class="top">
+    <nav>
        <a class="one" href="#">Plan your<br> Visit?</a>
        <a class="two" href="#"> Learn about<br> the Park</a>
        <a class="three" href="#">Get<br> Involved</a>
@@ -17,16 +22,13 @@
 
   
    
-       <div class="main_info">
-      <img class="header_img" src="/assets/header_img.jpg" alt="Mountains">
-
-    
-      <span class="right"> <h1> Yosemite Park Guide</h1>
+      <section class="main_info">
+      <img src="/assets/header_img.jpg" alt="Mountains">
+      <div><h1> Yosemite Park Guide</h1>
       <p>Come explore California’s beautiful wilderness.</p>
-      <p>Always open. Reservations are not available or required to enter the park.</p>
-      </span>
+      <p>Always open. Reservations are not available or required to enter the park.</p></div>
 
-      </div>
+      </section>
       
       <div class="body_info">
         <p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p>
@@ -36,7 +38,7 @@
      
       <div class="camp_fire">
       <img class="camp_fire_img" src="https://image.flaticon.com/icons/svg/2979/2979348.svg" alt="camp fire">
-      <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.
+      <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for<span class="fire_restrictions">current fire restrictions.</span>
 
       </p>
       
@@ -49,16 +51,17 @@
     </p>
 </div>
 
-      <footer>
-        <img class="footer_img" src="/assets/footer_img.jpg">
+   <footer class="footer">
+    <img class="footer_img" src="/assets/footer_img.jpg">
       
-      
-        <nav class="bottom">
-          <a class="one.b" href="#">Plan your Visit?</a>
-          <a class="two.b" class href="#"> Learn about the Park</a>
-          <a class="three.b" href="#">Get Involved</a>
-        </nav>
-
+    
+        <nav>
+          <a class="one" href="#">Plan your<br> Visit?</a>
+          <a class="two" href="#"> Learn about<br> the Park</a>
+          <a class="three" href="#">Get<br> Involved</a>
+          </nav>
+        </footer>
+       
 
         </div>
       
