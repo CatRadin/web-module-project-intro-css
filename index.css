@@ -168,6 +168,21 @@ nav .two {
 nav .three {
   background-color: #ffcd69;
 }
+
+nav .one:hover {
+  background-color: #ef476f;
+  transform: rotate(10deg);
+}
+
+nav .two:hover {
+  background-color: #06d6a0;
+  transform: rotate(10deg);
+}
+
+nav .three:hover {
+  background-color: #073b4c;
+  transform: rotate(10deg);
+}
 section {
   display: flex;
   justify-content: space-evenly;
