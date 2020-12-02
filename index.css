@@ -249,6 +249,7 @@ section h1 {
 
 .fire_restrictions {
   font-weight: bold;
+  display: inline-block;
 }
 
 .camper_van_img {
@@ -268,6 +269,7 @@ section h1 {
   text-align: center;
   margin-bottom: 40px;
 }
+
 footer {
   background-color: #f9e7dc;
 }
